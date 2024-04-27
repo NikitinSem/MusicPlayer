@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.f_block{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 22, 22);
+}
+.container{
+    width: 1440px;
+    height: 10124px;
+    margin: 0px 120px;
+}
+nav{
+    display: flex;
+    color: aliceblue;
+}
+.logo{
+    height: 80px;
+    width: 53px;
+    font-family: 'Libre Barcode 128 text';
+    font-size: 80px;
+    font-weight: 500;
+    margin-right: 190px;
+}
+.nav_bar_links{
+    display: flex;
+    flex-direction: row;
+}
+.nav_bar_links>li{
+    list-style: none;
+}
